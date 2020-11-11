@@ -1,0 +1,38 @@
+
+/*  start to header media  */
+@media(max-width:575px ){
+header{
+    min-height:400px;
+}
+header p{
+    font-size:2rem;
+   
+}
+header .btn{
+display: block;
+width:100%;
+}
+}
+
+/* end header media */
+ 
+
+/* start feat */
+@media(max-width:767px){
+    .features .feat{
+        padding-bottom:30px;
+    }
+}
+/* end feat */
+
+/* srart worker */
+@media(max-width:991px){
+ .worker .person1{
+     padding-top:25px;
+ }
+  
+ .information  .photo img:hover{
+    width:300px;
+}
+}
+/* end worker */

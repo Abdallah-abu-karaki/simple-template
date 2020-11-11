@@ -1,0 +1,131 @@
+
+
+
+body{
+    text-transform:capitalize;
+}
+/* start header */
+header{
+    min-height:500px;
+    padding-top:100px;
+    padding-bottom:100px;
+    background: url(../images/header.jpg) no-repeat center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
+}
+header p{
+    padding-bottom:30px;
+    text-align: center;
+    font-size:3rem;
+    font-weight:bold;
+    color:#fff;
+}
+/* end header */
+
+/* start feat */
+.features{
+    padding-top:50px;
+    padding-bottom:50px;
+    min-height:300px;
+    background-color: rgb(245, 245, 245);
+    
+}
+.features .feat .fa, .fas ,.far{
+    font-size:60px;
+    color:#6FA2FF;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+     transition: all 0.7s ease-in-out;
+}
+.features .feat i:hover{
+    font-size:70px;
+}
+.features .feat h3{
+    margin-top:10px;
+    font-size:30px;
+    font-weight:500;
+    
+}
+.features .feat .lead{
+    color:#777
+}
+/* end feat */
+
+/* start information section */
+ .information{
+     padding-top:30px;
+     padding-bottom:30px;
+ }
+.information .info{
+   margin:30px 35px ;
+   min-height:200px;
+}
+.information  .photo{
+    padding-top: 30px;
+ }
+.information .info p,h2{
+  margin  :10px;
+}
+
+.information  .photo img{
+     width:300px;
+     transition:all 0.7s ease-in-out;
+    -webkit-transition:all 0.7s ease-in-out;
+    -moz-transition:all 0.7s ease-in-out;
+    -o-transition:all 0.7s ease-in-out;
+    filter:grayscale(100%);
+    
+}
+.information  .photo img:hover{
+    width:320px;
+    filter:grayscale(0%);
+}
+.information .lead{
+    color:#777;
+    
+}
+
+/* end information section */
+
+
+/* start section worker */
+.worker{
+    padding-top:40px;
+    padding-bottom:40px;
+    background-color:rgb(245, 245, 245);
+}
+.worker  h1{
+    padding-bottom:20px;
+    font-size:30px;
+}
+.worker img{
+    width:230px;
+}
+.worker .person1 h3{
+    padding-top:15px;
+
+}
+
+
+/* end section worker */
+
+
+.endfooter{
+    margin-top:30px;
+    padding-top:25px;
+    height:70px;
+    background-color: #222;
+    color:#fff;
+   
+}
+.endfooter p{
+    
+    margin-bottom:0px;
+}
+
+/* end footer */
+
+/* end file css to this project  creat in 8/23/2019  by abdallah abu karaki */
